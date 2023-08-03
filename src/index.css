@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-[Montserrat]
+    }
+    li {
+        @apply cursor-pointer
+    }
+}
+
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(113, 157, 255, 0.8)
+        hsla(243, 74%, 76%, 0.8)
+    );
+}
+
