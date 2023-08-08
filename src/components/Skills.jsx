@@ -21,7 +21,7 @@ const Skills = () => {
     }
   }, [isInView]);
   return (
-    <section name="skills" className=" h-screen">
+    <section name="skills" className="bg-[#FBFCF8] h-screen">
       <motion.div
         ref={ref}
         variants={{

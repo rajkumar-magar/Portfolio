@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [isInView]);
 
   return (
-    <div>
+    <div> 
       <motion.div
         ref={ref}
         variants={{
@@ -35,7 +35,7 @@ const Navbar = () => {
         initial="hidden"
         animate={mainControls}
         transition={{ duration: 1, delay: 0.5 }}
-        className="!fixed w-full h-[80px] top-0 flex justify-between items-center shadow-sm bg-white !z-50  from-slate-950"
+        className="!fixed w-full h-[80px] top-0 flex justify-between items-center shadow-sm bg-[#FEFEFA] !z-50  from-slate-950"
       >
         <div className="w-[10%] m-4 ">
           <a

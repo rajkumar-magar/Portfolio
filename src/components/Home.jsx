@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="h-screen " name="home">
+    <section className="h-screen bg-[#FBFCF8] " name="home">
       <motion.div
         ref={ref}
         variants={{

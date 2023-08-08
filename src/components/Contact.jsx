@@ -14,7 +14,7 @@ const Contact = () => {
   }, [isInView]);
 
   return (
-    <section name="contact" className=" h-screen ">
+    <section name="contact" className=" bg-[#FBFCF8] h-screen ">
       <motion.div
         ref={ref}
         variants={{

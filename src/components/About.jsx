@@ -15,7 +15,7 @@ const About = () => {
     }
   }, [isInView]);
   return (
-    <section name="about" className="h-screen bg-gray-50">
+    <section name="about" className="h-screen bg-[#FBFCF8]">
       <motion.div
         ref={ref}
         variants={{
