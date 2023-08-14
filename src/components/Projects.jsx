@@ -1,6 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpg";
 import CardSS from "../assets/cardSS.png";
+import EcomSS from "../assets/EcomSS.png";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 
@@ -32,6 +33,32 @@ const Projects = () => {
         </h1>
         <div className=" grid grid-cols-2 md:grid-cols-2 gap-4 py-8 place-content-evenly ">
           <div
+            style={{ backgroundImage: `url(${EcomSS})` }}
+            className="shadow-lg shadow-[#040c16] !bg-contain group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-indigo-900 tracking-wider">
+                E-commerce App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://ecommerce-app-rk.netlify.app/" target="_blank">
+                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-600 rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/rajkumar-magar/E-commerce-app.git"
+                  target="_blank"
+                >
+                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-600  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
+                    Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
             style={{ backgroundImage: `url(${CardSS})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
@@ -44,7 +71,7 @@ const Projects = () => {
                   href="https://rajkumar-magar.github.io/Card-Gallery/"
                   target="_blank"
                 >
-                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-600 rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
+                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-500  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
                     Demo
                   </button>
                 </a>
@@ -52,29 +79,6 @@ const Projects = () => {
                   href="https://github.com/rajkumar-magar/Card-Gallery.git"
                   target="_blank"
                 >
-                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-600  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
-                    Source Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
-          >
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Apps
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-500  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
                   <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-500  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
                     Source Code
                   </button>
