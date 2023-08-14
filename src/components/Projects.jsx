@@ -1,7 +1,6 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpg";
 import CardSS from "../assets/cardSS.png";
-import EcomSS from "../assets/EcomSS.png";
+import EcomSS from "../assets/ecomSS.png";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 
