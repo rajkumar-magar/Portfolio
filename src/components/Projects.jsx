@@ -1,6 +1,7 @@
 import React from "react";
 import CardSS from "../assets/cardSS.png";
 import EcomSS from "../assets/ecomSS.png";
+import UiDegSS from "../assets/uidesSS.png"
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 
@@ -51,6 +52,27 @@ const Projects = () => {
                 >
                   <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-600  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
                     Source Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${UiDegSS})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-green-600 tracking-wider">
+                Real Estate Layout UI Design
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://www.figma.com/file/e4D3yihSOeBvpEXBsKhj7L/Real-Estate-Web-App?type=design&node-id=0%3A1&mode=design&t=wMvUn2zhKH7RZo7x-1"
+                  target="_blank"
+                >
+                  <button className="button sm:px-4 px-4 py-3 m-2 bg-gradient-to-r from-teal-500 to-emerald-500  rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-auto h-14 text-center shadow-lg transition-all duration-500 select-none">
+                    Figma View
                   </button>
                 </a>
               </div>
