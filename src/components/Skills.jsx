@@ -67,7 +67,7 @@ const Skills = () => {
               className="w-10 sm:w-20  mx-auto "
               src={Node}
               alt="Node icon"
-            />
+            />``
             <p className="my-4 text-sm lg:text-lg text-bold">NODE</p>
           </div>
           <div className="shadow-md break-words shadow-[#dbe0e5] rounded-xl ">

@@ -24,7 +24,7 @@ const Contact = () => {
         initial="hidden"
         animate={mainControls}
         transition={{ duration: 0.75, delay: 0.5, type:"spring"}}
-        className="max-w-[75%] h-screen sm:w-screen sm:h-screen mx-auto  flex justify-evenly from-slate-950 "
+        className="max-w-[75%] h-screen sm:w-screen sm:h-screen mx-auto flex justify-evenly from-slate-950 "
       >
         <form
           method="POST"
@@ -37,7 +37,7 @@ const Contact = () => {
             </h1>
           </div>
           <input
-            className="p-2 bg-black-100 ring-2 ring-opacity-70 ring-cyan-900"
+           className="p-2 bg-black-100 ring-2 ring-opacity-70 ring-cyan-900"
             type="text"
             placeholder="Name"
             name="name"

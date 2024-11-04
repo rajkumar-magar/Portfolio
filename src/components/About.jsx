@@ -40,7 +40,7 @@ const About = () => {
             <div className=" lg:-my-2 my-4 xl:-my-6 sm:h-fit tracking-wide font-light leading-tight ">
               <div className="text-sm lg:text-base xl:text-2xl text-gray-900  inline-block">
                 <p>
-                  I graduated from <span className="font-bold">Coventry University / Softwarica College of IT and E-Commerce </span> after completing Bachelor in Information Technolgy (Hons) Computing.
+                  I graduated from <span className="font-bold">Coventry University / Softwarica College of IT and E-Commerce </span> after completing Bachelor in Information Technology (Hons) Computing.
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const About = () => {
             </div>
           </div>
           <div className="lg:-mt-[10%]">
-            <a href="https://drive.google.com/file/d/1kBWnTPKOX0jdnVAJ64YLdutDS4Zi_vhZ/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1UsRBroa4q2GYz1txxL4JNae9FoOX3j_A/view?usp=sharing"
             target="_blank">
               <button
                 className="button flex sm:mx-0 justify-between items-center px-4 lg:px-6 bg-gradient-to-r from-red-500 to-indigo-800 rounded-md border-none box-border text-white cursor-pointer flex-shrink-0 text-base font-bold w-fit 
